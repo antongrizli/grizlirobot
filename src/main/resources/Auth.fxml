@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane" maxHeight="300.0" maxWidth="300.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.twitter.robot.controller.AuthController">
+   <children>
+      <TextField fx:id="txtfldLogin" layoutX="74.0" layoutY="93.0" prefWidth="200.0" />
+      <Label layoutX="18.0" layoutY="97.0" text="Login:" />
+      <Label layoutX="18.0" layoutY="129.0" text="Password:" />
+      <Button fx:id="btnLogin" layoutX="74.0" layoutY="166.0" mnemonicParsing="false" onAction="#login" prefWidth="75.0" text="Login" />
+      <Button fx:id="btnLogout" layoutX="199.0" layoutY="166.0" mnemonicParsing="false" onAction="#logout" prefWidth="75.0" text="Logout" />
+      <PasswordField fx:id="txtfldPass" layoutX="76.0" layoutY="125.0" prefWidth="200.0" />
+      <Label fx:id="lWarning" layoutX="20.0" layoutY="46.0" prefWidth="250.0" />
+      <Button fx:id="notify" layoutX="71.0" layoutY="208.0" mnemonicParsing="false" onAction="#press" text="Notify" />
+   </children>
+</Pane>
